@@ -1,7 +1,7 @@
 webmention
 ==========
 
-A Python implementation of the [webmention](https://github.com/converspace/webmention) protocol.
+A Python implementation of the [webmention](https://github.com/converspace/webmention) protocol, for my site [Parallel Transport](http://kartikprabhu.com/)
 
 At present:
 
