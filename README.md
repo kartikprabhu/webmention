@@ -7,6 +7,7 @@ At present:
 
 *	webmentiontoolsX extends [vrypan's webmention-tools](https://github.com/vrypan/webmention-tools) to return author name, author url, accept text/html response if sending a webmention.
 *	webmention.py contains functions to parse, check and save a webmention as responses in a particular Django website.
+*	webmentionsender contains function to parse contents of a post and send webmention to each link-href
 
 
 To do
