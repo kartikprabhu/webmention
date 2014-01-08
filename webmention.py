@@ -84,11 +84,7 @@ def post_mention(accept_header, source, target):
     #don't defrag source and target
 
     if source and target:
-        if 'text/html' in accept_header:
             reply_response = parse_mention(source, target)
-        else:
-            ## WHAT FORMAT HERE?
-            reply_response = {'status': 406, 'reason': 'Wrong Accept header. Only text/html is supported'}
     else:
         reply_response = {'status': 400, 'reason': 'URL not specified for source or target'}
 
