@@ -1,6 +1,8 @@
 webmention
 ==========
 
+**Deprecated. I no longer use this. Here just for backup of code.**
+
 A Python implementation of the [webmention](https://github.com/converspace/webmention) protocol, for my site [Parallel Transport](http://kartikprabhu.com/)
 
 At present:
