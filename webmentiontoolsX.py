@@ -61,8 +61,8 @@ class WebmentionSend(WebmentionSend):
 			}
 			if r.headers['content-type'] == 'application/json':
 				response = r.json()
-				self.error['error'] = response['error']
-				self.error['error_description'] = response['error_description']
+				self.error['error'] = response.get('error','')
+				self.error['error_description'] = response.get('error_description','')
 			elif r.headers['content-type'] == 'text/html':
 				self.error['error'] = r.reason
 				self.error['error_description'] = r.content
