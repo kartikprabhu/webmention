@@ -1,7 +1,7 @@
 webmention
 ==========
 
-**Deprecated. I no longer use this. Here just for backup of code.**
+**Deprecated. I no longer use this. Here just for backup of code.** now using [connection](https://github.com/kartikprabhu/connection) based on [ronkyuu](https://github.com/bear/ronkyuu).
 
 A Python implementation of the [webmention](https://github.com/converspace/webmention) protocol, for my site [Parallel Transport](http://kartikprabhu.com/)
 
